@@ -9,15 +9,15 @@ int main()
     scanf_s("%d", &N);
 
     int* mass;
-    mass = (int *)malloc(N * sizeof(int));// выделение памяти под массив
+    mass = (int *)malloc(N * sizeof(int));
 
-    printf("Input the array elements:\n");//считывание элементов массива
+    printf("Input the array elements:\n");
     for (int i = 0; i < N; i++)
         scanf_s("%d", &mass[i]);
 
-    //далее сама сортировка
-    int save; //сейв
-    //int point; //указатель
+
+    int save;
+    //int point;
 
     for (int i = N - 1; i >= 0; i--)
     {
