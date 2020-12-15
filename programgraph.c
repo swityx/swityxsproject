@@ -5,9 +5,8 @@ int main()
 {
     printf("Enter size vertex*edge:\n");
     int vertex, edge;
-    while (scanf("%d", &vertex) != 1 || vertex < 0)
-        scanf("%*[^\n]");
-    while (scanf("%d", &edge) != 1 || edge < 0)
+    scanf("%d", &vertex);
+    scanf("%d", &edge);
         scanf("%*[^\n]");
     int mass[vertex][edge];
 
